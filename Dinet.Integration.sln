@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{18EB1AC4-36F3-4B89-824E-FCFC1C1481C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Distributed Services", "2. Distributed Services", "{2D365455-D8F8-43F3-9A55-42240A91B65B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Distributed Services Public", "3. Distributed Services Public", "{4811570A-355F-4517-95E3-D325D334B61E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Distributed Windows Services", "4. Distributed Windows Services", "{6575C0E2-B1CC-4E7A-AA50-A0CE6709A130}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Domain", "5. Domain", "{F834A167-3E52-441C-9B45-774F2E0233B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Test", "6. Test", "{136BBF49-AC04-4716-B182-E2E5A452DD35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 WebService", "3.1 WebService", "{393CF79E-4B8A-4FD4-B0D1-D31478A9EC15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 WebApi", "3.2 WebApi", "{A7ACC455-5DA1-4D26-BD66-1D23B5E5441E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinet.Integration.Domain.Common", "Dinet.Integration.Domain.Common\Dinet.Integration.Domain.Common.csproj", "{4161A159-6E3C-4DCF-8DFF-5E61D1B2360D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinet.Integration.Domain.Wrapper", "Dinet.Integration.Domain.Wrapper\Dinet.Integration.Domain.Wrapper.csproj", "{BB2DC545-5B47-48A5-8B93-A7A680907890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinet.Integration.Service", "Dinet.Integration.Service\Dinet.Integration.Service.csproj", "{BE366E01-79B3-4C84-877E-C1F2B28D16DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinet.Integration.WebApi", "Dinet.Integration.WebApi\Dinet.Integration.WebApi.csproj", "{C2FECE13-4284-4DDF-8F72-101866126A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinet.Integration.Implementation.WebService", "Dinet.Integration.Implementation.WebService\Dinet.Integration.Implementation.WebService.csproj", "{DE2DBEEE-8D78-4FAA-AA08-C532224410DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinet.Integration.WebService", "Dinet.Integration.WebService\Dinet.Integration.WebService.csproj", "{8420B12A-664F-404A-ADF7-F1C60B8F54DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4161A159-6E3C-4DCF-8DFF-5E61D1B2360D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4161A159-6E3C-4DCF-8DFF-5E61D1B2360D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4161A159-6E3C-4DCF-8DFF-5E61D1B2360D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4161A159-6E3C-4DCF-8DFF-5E61D1B2360D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB2DC545-5B47-48A5-8B93-A7A680907890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2DC545-5B47-48A5-8B93-A7A680907890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2DC545-5B47-48A5-8B93-A7A680907890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2DC545-5B47-48A5-8B93-A7A680907890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE366E01-79B3-4C84-877E-C1F2B28D16DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE366E01-79B3-4C84-877E-C1F2B28D16DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE366E01-79B3-4C84-877E-C1F2B28D16DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE366E01-79B3-4C84-877E-C1F2B28D16DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2FECE13-4284-4DDF-8F72-101866126A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2FECE13-4284-4DDF-8F72-101866126A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2FECE13-4284-4DDF-8F72-101866126A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2FECE13-4284-4DDF-8F72-101866126A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE2DBEEE-8D78-4FAA-AA08-C532224410DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE2DBEEE-8D78-4FAA-AA08-C532224410DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE2DBEEE-8D78-4FAA-AA08-C532224410DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE2DBEEE-8D78-4FAA-AA08-C532224410DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8420B12A-664F-404A-ADF7-F1C60B8F54DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8420B12A-664F-404A-ADF7-F1C60B8F54DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8420B12A-664F-404A-ADF7-F1C60B8F54DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8420B12A-664F-404A-ADF7-F1C60B8F54DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{393CF79E-4B8A-4FD4-B0D1-D31478A9EC15} = {4811570A-355F-4517-95E3-D325D334B61E}
+		{A7ACC455-5DA1-4D26-BD66-1D23B5E5441E} = {4811570A-355F-4517-95E3-D325D334B61E}
+		{4161A159-6E3C-4DCF-8DFF-5E61D1B2360D} = {F834A167-3E52-441C-9B45-774F2E0233B6}
+		{BB2DC545-5B47-48A5-8B93-A7A680907890} = {F834A167-3E52-441C-9B45-774F2E0233B6}
+		{BE366E01-79B3-4C84-877E-C1F2B28D16DE} = {2D365455-D8F8-43F3-9A55-42240A91B65B}
+		{C2FECE13-4284-4DDF-8F72-101866126A42} = {A7ACC455-5DA1-4D26-BD66-1D23B5E5441E}
+		{DE2DBEEE-8D78-4FAA-AA08-C532224410DE} = {393CF79E-4B8A-4FD4-B0D1-D31478A9EC15}
+		{8420B12A-664F-404A-ADF7-F1C60B8F54DC} = {393CF79E-4B8A-4FD4-B0D1-D31478A9EC15}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {724E4D35-CE47-4246-9D7D-E1506494CA04}
+	EndGlobalSection
+EndGlobal

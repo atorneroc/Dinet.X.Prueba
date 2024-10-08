@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Dinet.Integration.Implementation.WebService.MaskDocument" %>
